@@ -30,5 +30,5 @@ jobs:
           ftp-server: ${{ secrets.FTP_SERVER }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/ # Adjust this path if your build output directory is different
-          server-dir: /path/to/your/shared/hosting/public_html
+          local-dir: build/ # Adjust this path based on your build output directory
+          server-dir: htdocs/ # Adjust this based on your hosting provider's directory structure
