@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Shared Hosting
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          ftp-server: ftpupload.net
-          ftp-username: ezyro_36663805
-          ftp-password: 48e2dbc956
+          server: ftpupload.net
+          username: ezyro_36663805
+          password: 48e2dbc956
           local-dir: build/ # Adjust this path based on your build output directory
           server-dir: htdocs/ # Adjust this based on your hosting provider's directory structure
