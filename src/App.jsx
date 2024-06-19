@@ -20,7 +20,7 @@ function App() {
       </div>
       <h1>hello form</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 2)}>
           inasd {count}
         </button>
         <p>
