@@ -1,4 +1,4 @@
-name: Deploy Vite Projectss
+name: Deploy Vite Projects
 
 on:
   push:
@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Shared Hosting
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          ftp-server: ftpupload.net
+          ftp-username: ezyro_36663805
+          ftp-password: 48e2dbc956
           local-dir: build/ # Adjust this path based on your build output directory
           server-dir: htdocs/ # Adjust this based on your hosting provider's directory structure
